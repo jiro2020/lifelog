@@ -1,0 +1,7 @@
+{
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "react",
+  "workspaceFolder": "/home/node/app",
+  "shutdownAction": "stopCompose",
+  "extensions": []
+}

@@ -1,0 +1,12 @@
+version: '3'
+services:
+  react:
+    build:
+      context: ./DockerContext
+      dockerfile: ./Dockerfile/NodeJS
+    image: nodejs-react
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/home/node/app
+    command: "node server.js"
