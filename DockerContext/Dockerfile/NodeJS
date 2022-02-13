@@ -2,4 +2,4 @@ FROM node:16.14.0-bullseye
 
 USER node
 
-WORKDIR /home/node/app
+WORKDIR /home/node/app/react-app

@@ -8,3 +8,4 @@
 1. Open local repository with VS Code
 2. Open Command Palette (`Ctrl + Shift + p`)
 3. Select `Remote-Containers: Reopen in Container`
+   - It tooks a few minutes for the app to launch.

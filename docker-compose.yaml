@@ -9,4 +9,4 @@ services:
       - "3000:3000"
     volumes:
       - ./app:/home/node/app
-    command: "node server.js"
+    command: bash -c "npm install && npm start "
